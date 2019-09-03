@@ -1,6 +1,5 @@
 <template>
   <div>
-    VisibleTodoList
     <TodoList
       :todos="getVisibleTodos"
       @toggle-todo="(todoId) => toggleTodo(todoId)"

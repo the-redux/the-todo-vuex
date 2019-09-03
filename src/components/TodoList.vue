@@ -19,6 +19,6 @@ export default {
   },
   props: {
     todos: [Array],
-  }
+  },
 };
 </script>

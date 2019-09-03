@@ -1,9 +1,9 @@
 <template>
   <div>
     Show:
-    <FilterLink :filter="VisibilityFilter.SHOW_ALL" label="All">All</FilterLink>
-    <FilterLink :filter="VisibilityFilter.SHOW_ACTIVE" label="Active">Active</FilterLink>
-    <FilterLink :filter="VisibilityFilter.SHOW_COMPLETED" label="Complted">Completed</FilterLink>
+    <FilterLink :filter="VisibilityFilter.SHOW_ALL" label="All"></FilterLink>
+    <FilterLink :filter="VisibilityFilter.SHOW_ACTIVE" label="Active"></FilterLink>
+    <FilterLink :filter="VisibilityFilter.SHOW_COMPLETED" label="Complted"></FilterLink>
   </div>
 </template>
 

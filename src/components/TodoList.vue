@@ -18,7 +18,10 @@ export default {
     Todo,
   },
   props: {
-    todos: [Array],
+    todos: {
+      type: Array,
+      required: true,
+    },
   },
 };
 </script>

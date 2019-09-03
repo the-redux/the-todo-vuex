@@ -12,8 +12,14 @@
 export default {
   name: 'Link',
   props: {
-    label: [String],
-    active: [Boolean],
+    label: {
+      type: String,
+      required: true,
+    },
+    active: {
+      type: Boolean,
+      required: true,
+    },
   },
 };
 </script>

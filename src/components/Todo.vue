@@ -13,8 +13,14 @@
 export default {
   name: 'Todo',
   props: {
-    text: [String],
-    completed: [Boolean],
+    text: {
+      type: String,
+      required: true,
+    },
+    completed: {
+      type: Boolean,
+      required: true,
+    },
   },
 };
 </script>
